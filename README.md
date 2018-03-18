@@ -22,7 +22,7 @@ Os servlet principal da aplicação é ExercicioSala1.java que trabalha com o Fo
 
 Para utilizar:
 
-*Execute esse projeto no servidor  
-*Vai para o caminho /Aula_Web_12_03/FormAluno.html.
-*Envie os dados dos formulario.
+* Execute esse projeto no servidor  
+* Vai para o caminho /Aula_Web_12_03/FormAluno.html.
+* Envie os dados dos formulario.
 E terá a pagina de resposta.E repete o processo acima.
