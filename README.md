@@ -26,3 +26,18 @@ Para utilizar:
 * Vai para o caminho /Aula_Web_12_03/FormAluno.html.
 * Envie os dados dos formulario.
 E terá a pagina de resposta.E repete o processo acima.
+
+# Projeto TrabalhoJSP_TabelaDinamica
+Esse projeto esta dentro da pasta do NetBeans e inclui todo o codigo fonte,as paginas Webs e o javadoc.
+
+O servlet principal da aplicação é ValidarFormulario.java que cuida da validação do formulario FormularioAlunoValido.jsp e enviar os dados validos para a TabelaDinamicaValida.jsp
+
+Obs:Ele trata erros como:campos vazios,campos com valores incorretos entre outros.
+
+Para utilizar:
+
+* Execute esse projeto no servidor  
+* Vai para o caminho TrabalhoJSP_TabelaDinamica/FormularioAlunoValido.jsp
+* Preencha os dados do formulario e o envie.
+* Aparecerá a tabela com as informações preenchidas.
+* Repita o processo acima quantas vezes desejares.
