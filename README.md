@@ -55,3 +55,17 @@ Para utilizar:
 * Preencha os dados do formulario e o envie.
 * Aparecerá a tabela com as informações preenchidas.
 * Repita o processo acima quantas vezes desejares.
+
+# Projeto ProjetoBootstrap
+Esse projeto esta dentro da pasta do NetBeans e inclui todo o codigo fonte,as paginas Webs e o javadoc.
+
+O servlet principal da aplicação é ValidarFormulario.java que cuida da validação do formulario index.jsp e enviar os dados validos para a TabelaBootstrap.jsp atraves do uso do JEE EL e do JEE JSTL,tags customizadas,filter e utilizando o  Bootstrap
+
+Obs:Ele trata erros como:campos vazios,campos com valores incorretos entre outros.
+
+Para utilizar:
+
+* Execute esse projeto no servidor  
+* Preencha os dados do formulario e o envie.
+* Aparecerá a tabela com as informações preenchidas.
+* Volte ao formulario e envie novas informações quantas vezes quiseres
