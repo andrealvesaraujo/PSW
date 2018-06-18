@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Questão2</title>	
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/Q1.css">
+	
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>Aluno</th>
+				<th>Nota1</th>
+				<th>Nota2</th>
+				<th>Nota Final</th>
+				<th>Prova Final</th>
+				<th>Situação</th>
+			</tr>
+			<tr>
+				<td>João</td>
+				<td>10</td>
+				<td>9</td>
+				<td>9.5</td>
+				<td>10</td>
+				<td id="situação_Joao">Aprovado</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>8</td>
+				<td>9</td>
+				<td>8.5</td>
+				<td>10</td>
+				<td>Aprovado</td>
+			</tr>
+			<tr>
+				<td>José</td>
+				<td>7</td>
+				<td>6</td>
+				<td>6.5</td>
+				<td>10</td>
+				<td>Aprovado</td>
+			</tr>
+		</table>
+		<button onclick="AlterarSituação()">Clique Aqui</button>
+
+		<script>
+			function AlterarSituação(){
+				
+				if((document.getElementById("situação_Joao").innerHTML) == "Aprovado"){
+					document.getElementById("situação_Joao").innerHTML="Reprovado";
+				}else{
+					document.getElementById("situação_Joao").innerHTML="Aprovado";
+				}
+				
+			}
+		</script>	
+	</body>
+</html>

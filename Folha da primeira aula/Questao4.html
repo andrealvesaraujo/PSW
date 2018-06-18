@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Questão4</title>	
+	<meta charset="utf-8">
+	
+	</head>
+	<body>
+		<form method="GET">
+			<br>
+
+			<div>
+				<label for="nome_aluno">Nome:</label>
+				<input type="text" name="nome_aluno" id="nome_aluno" placeholder="Digite o nome do aluno" required autofocus><br>
+			</div>
+			<br>
+			<div>
+				<label for="nota1">Nota1:</label>
+				<input type="number" name="nota1" id="nota1" min="0.0" max="10.0" step="0.1"  required><br>
+			</div>
+			<br>
+			<div>
+				<label for="nota2">Nota2:</label>
+				<input type="number" name="nota2" id="nota2" min="0.0" max="10.0" step="0.1"  required><br>
+			</div>
+			<br>
+			<div>
+				<label for="nota_final">Nota final:</label>
+				<input type="number" name="nota_final" id="nota_final" min="0.0" max="10.0" step="0.1"  required><br>
+			</div>
+			<br>
+			<div>
+				<label for="prova_final">Prova final:</label>
+				<input type="number" name="prova_final" id="prova_final" min="0.0" max="10.0" step="0.1"  required><br>
+			</div>
+			<br>
+			<div>
+				<label for="aprovado">Aprovado</label>
+				<input type="radio" name="situacao" id="aprovado" value="aprovado"><br>
+				<label for="aprovado">Reprovado</label>
+				<input type="radio" name="situacao" id="reprovado" value="reprovado"><br>
+			</div>
+			<br>
+			<!--Quando for AJAX no javascript:
+				<button type="button" onclick="enviarForm()">Submeter</button>  
+			--> 
+			<!--Quando AJAX no Jquery -->
+
+			<button type="button">Submeter</button>
+
+		</form>
+
+
+		<script src="js/jquery.min.js"></script>
+		<script>
+			
+			/* AJAX só no javascript:
+				function enviarForm() {
+					  var xhttp = new XMLHttpRequest();
+					  xhttp.open("GET", "ajax.txt", true);
+					  xhttp.send();
+				}
+			*/
+			//Agora AJAX com o Jquery
+			$(document).ready(function(){
+				$("button").click(function(){
+					$("form").load("ajax.txt");
+				});
+				
+			});
+
+			
+		</script>
+
+	</body>
+</html>

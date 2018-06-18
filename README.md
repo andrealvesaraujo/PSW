@@ -8,6 +8,10 @@ Este projeto é codigo-fonte da aula 1 de PSW que explica os seguintes conceitos
 * Testes Unitarios
 * Javadoc
 
+# Pasta Folha da primeira aula
+Este projeto contem as respostas da primeira folha de exercicios passadas em PSW
+Basta entrar e clicar no .html referente ao numero da questão
+
 # Projeto Aula 1:Projeto Aluno Situação
 
 Projeto sobre sistema de notas do professor de psw atraves do uso da classe aluno junto com testes unitarios(JUnit) e a cobertura destes testes.

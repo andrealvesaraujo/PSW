@@ -1,0 +1,11 @@
+th, td {
+	font-family: Verdana;
+	font-size:14px;
+	font-weight: bold;
+	padding: 0;
+}
+table ,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
