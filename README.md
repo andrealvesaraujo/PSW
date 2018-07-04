@@ -73,3 +73,13 @@ Para utilizar:
 * Preencha os dados do formulario e o envie.
 * Aparecerá a tabela com as informações preenchidas.
 * Volte ao formulario e envie novas informações quantas vezes quiseres
+
+
+# Pasta Outros Projetos
+Essa pasta contem varios programas (guardados separadamente em pastas) feitos em sala como forma de praticar para provas e trabalhos.
+
+Como cada programa é unico os passos genericos a serem feitos são:
+
+* Execute o projeto do programa escolhido no servidor  
+* Faça aquilo que pede
+* Saia quando desejares
