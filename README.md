@@ -1,4 +1,4 @@
-# Aulas de psw 2018
+# Projetos principais da aula de PSW(Programação Software Web) do CEFET-RJ Maracanã 2018
 
 # Aula 1 psw 2018
 Este projeto é codigo-fonte da aula 1 de PSW que explica os seguintes conceitos:
