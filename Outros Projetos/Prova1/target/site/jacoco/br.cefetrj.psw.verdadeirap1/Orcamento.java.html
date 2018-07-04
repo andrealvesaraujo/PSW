@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Orcamento.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">AndreAlvesAraujo</a> &gt; <a href="index.source.html" class="el_package">br.cefetrj.psw.verdadeirap1</a> &gt; <span class="el_source">Orcamento.java</span></div><h1>Orcamento.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.cefetrj.psw.verdadeirap1;
+
+import java.util.ArrayList;
+
+/**
+ * Classe Orcamento
+ * 
+ * @author Andre
+ */
+<span class="nc" id="L15">public class Orcamento extends PlanoConta{</span>
+
+    /**
+     * @return the e
+     */
+    public Empresa getE() {
+<span class="nc" id="L21">        return e;</span>
+    }
+
+    /**
+     * @param e the e to set
+     */
+    public void setE(Empresa e) {
+<span class="nc" id="L28">        this.e = e;</span>
+<span class="nc" id="L29">    }</span>
+
+   
+    private int ano;
+    private ArrayList&lt;ContaOrcamento&gt; contaOrcamento;
+    private Empresa e;
+    
+    /**
+     * @return the ano
+     */
+    public int getAno() {
+<span class="nc" id="L40">        return ano;</span>
+    }
+
+    /**
+     * @param ano the ano to set
+     */
+    public void setAno(int ano) {
+<span class="nc" id="L47">        this.ano = ano;</span>
+<span class="nc" id="L48">    }</span>
+     /**
+     * @return the contaOrcamento
+     */
+    public ArrayList&lt;ContaOrcamento&gt; getContaOrcamento() {
+<span class="nc" id="L53">        return contaOrcamento;</span>
+    }
+
+    /**
+     * @param contaOrcamento the contaOrcamento to set
+     */
+    public void setContaOrcamento(ArrayList&lt;ContaOrcamento&gt; contaOrcamento) {
+<span class="nc" id="L60">        this.contaOrcamento = contaOrcamento;</span>
+<span class="nc" id="L61">    }</span>
+
+    
+    
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

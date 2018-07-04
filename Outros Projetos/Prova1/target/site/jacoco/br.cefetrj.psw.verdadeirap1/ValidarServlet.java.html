@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ValidarServlet.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">AndreAlvesAraujo</a> &gt; <a href="index.source.html" class="el_package">br.cefetrj.psw.verdadeirap1</a> &gt; <span class="el_source">ValidarServlet.java</span></div><h1>ValidarServlet.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.cefetrj.psw.verdadeirap1;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet que valida os campos do primeiro formulario da prova.
+ * @author Andre
+ */
+@WebServlet(&quot;/ValidarServlet&quot;)
+<span class="nc" id="L23">public class ValidarServlet extends HttpServlet {</span>
+
+    /**
+     * Metodo que valida os campos do formulario principal de cadastro e se forem validas serão incluidas numa linha da Tabela.jsp.Caso algum campo foi preenchido errado haverá uma mensagem mostrando o erro.
+     * @param request é o request
+     * @param response é o response
+     * @throws ServletException exceção do servlet
+     * @throws IOException exceção de entrada e saida
+     */
+   @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+<span class="nc" id="L34">        String empresa=null;  </span>
+<span class="nc" id="L35">        String ano=null;</span>
+<span class="nc" id="L36">         boolean valido=true;</span>
+<span class="nc" id="L37">        boolean ehNumero=true;</span>
+        
+        //Nome
+        
+        
+            
+<span class="nc" id="L43">        empresa = request.getParameter(&quot;empresa&quot;);  </span>
+<span class="nc" id="L44">        request.setAttribute(&quot;empresa&quot;, empresa);      </span>
+       
+<span class="nc" id="L46">        ano = request.getParameter(&quot;ano&quot;);</span>
+<span class="nc" id="L47">        request.setAttribute(&quot;ano&quot;, ano);</span>
+            
+<span class="nc" id="L49">        Orcamento o = new Orcamento();</span>
+<span class="nc" id="L50">        o.setAno(Integer.parseInt(ano));</span>
+<span class="nc" id="L51">        o.setNome(&quot;Orçamento de &quot;+ano);</span>
+        
+<span class="nc" id="L53">        request.setAttribute(&quot;orcamento&quot;, o);</span>
+        
+        
+<span class="nc" id="L56">        request.getRequestDispatcher(&quot;Tabela.jsp&quot;).forward(request, response);</span>
+        
+    
+<span class="nc" id="L59">    }    </span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

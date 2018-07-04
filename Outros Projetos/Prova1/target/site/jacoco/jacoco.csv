@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,ErrosServlet,58,0,4,0,17,0,4,0,2,0
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,PlanoConta,17,0,0,0,7,0,5,0,5,0
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,ContaOrcamento,33,43,0,2,1,14,1,9,1,8
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,Orcamento,24,0,0,0,10,0,7,0,7,0
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,Conta,21,3,0,0,9,1,6,1,6,1
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,Empresa,17,0,0,0,7,0,5,0,5,0
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,TagPrincipal,53,0,2,0,14,0,6,0,5,0
+AndreAlvesAraujo,br.cefetrj.psw.verdadeirap1,ValidarServlet,56,0,0,0,15,0,2,0,2,0
