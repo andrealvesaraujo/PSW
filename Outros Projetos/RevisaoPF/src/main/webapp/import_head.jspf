@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="selects" uri="WEB-INF/selects.tld"%>
+  <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" >
+<link rel="stylesheet" href="bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" >
+        
+  <style type="text/css">
+div.container {
+	margin-bottom: 2em;
+}
+form {
+	margin-top: 50px;
+}
+fieldset.form-group {
+	 border:1px solid #999999;
+}
+fieldset legend.col-form-legend {
+	font-weight: bold;
+}
+div.form-row {
+	padding: 0px 15px;
+}
+</style>   

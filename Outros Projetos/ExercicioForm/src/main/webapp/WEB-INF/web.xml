@@ -1,0 +1,61 @@
+<web-app version="2.5"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ExcluirServlet</display-name>
+  	<servlet-name>ExcluirServlet</servlet-name>
+  	<servlet-class>br.cefetrj.psw.ExcluirServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>AlterarServlet</display-name>
+  	<servlet-name>AlterarServlet</servlet-name>
+  	<servlet-class>br.cefetrj.psw.AlterarServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>IncluirServlet</display-name>
+  	<servlet-name>IncluirServlet</servlet-name>
+  	<servlet-class>br.cefetrj.psw.IncluirServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>FiltrarServlet</display-name>
+  	<servlet-name>FiltrarServlet</servlet-name>
+  	<servlet-class>br.cefetrj.psw.FiltrarServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ExcluirServlet</servlet-name>
+  	<url-pattern>/ExcluirServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AlterarServlet</servlet-name>
+  	<url-pattern>/AlterarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IncluirServlet</servlet-name>
+  	<url-pattern>/IncluirServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FiltrarServlet</servlet-name>
+  	<url-pattern>/FiltrarServlet</url-pattern>
+  </servlet-mapping>
+  
+  <jsp-config>
+	<jsp-property-group>
+	<url-pattern>*.jsp</url-pattern>
+	<el-ignored>false</el-ignored>
+	</jsp-property-group>
+  </jsp-config>
+ 
+  
+</web-app>

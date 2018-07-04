@@ -1,0 +1,10 @@
+br\cefetrj\psw\model\dao\DepartamentoDAO.class
+br\cefetrj\psw\model\dao\PersistenceManager.class
+br\cefetrj\psw\model\entity\Departamento.class
+br\cefetrj\psw\view\utils\Relatorio.class
+br\cefetrj\psw\model\entity\Colaborador.class
+br\cefetrj\psw\view\padrao\ValidarServlet.class
+br\cefetrj\psw\model\dao\ColaboradorDAO.class
+br\cefetrj\psw\control\PrincipalServices.class
+br\cefetrj\psw\model\dao\GenericDAO.class
+br\cefetrj\psw\view\tags\ComboTag.class

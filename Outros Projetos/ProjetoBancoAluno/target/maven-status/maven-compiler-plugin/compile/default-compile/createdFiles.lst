@@ -1,0 +1,6 @@
+br\cefetrj\psw\model\dao\AlunoDAO.class
+br\cefetrj\psw\view\ValidarFormulario.class
+br\cefetrj\psw\model\dao\PersistenceManager.class
+br\cefetrj\psw\model\entity\Aluno.class
+br\cefetrj\psw\control\AlunoServices.class
+br\cefetrj\psw\model\dao\GenericDAO.class
